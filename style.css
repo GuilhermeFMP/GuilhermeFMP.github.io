@@ -1,13 +1,17 @@
+body {
+    padding: 0em 2em 2em 2em;
+}
+
 h1 {
     font-family: Roboto, sans-serif;
     color: #03045E;
     text-align: center;
     font-weight: 800;
-    width: 20em;
+    width: 40em;
     padding: 0,5em;
     margin-right: auto;
     margin-left: auto;
-        border-radius: 1em;
+    border-radius: 1em;
   }
   
 h1, .Topic, #Indice {
@@ -20,11 +24,13 @@ body {
   }
   
 #Guilherme {
-    display: block;
+    float: left;
     margin-left: auto;
     margin-right: auto;
     width: 250px;
     border-radius: 60px ;
+    padding: 0.5em;
+    background-color: #020237;
   }
   
 .Topic, #Indice {
@@ -32,7 +38,7 @@ body {
     font-weight: 900;
     text-align: center;
     color: #023E8A;
-    width: 30em;
+    width: 50em;
     padding: 0,5em;
     margin-right: auto;
     margin-left: auto;
@@ -102,3 +108,23 @@ a {
     margin-left: auto;
   }
   
+#image-container {
+    height: 17em;
+  }
+
+#Perfil {
+    margin-top: 0%;
+    padding-right: 9em;
+    margin-right: 1em;
+    margin-left: 12em;
+    width: 30em;
+  }
+
+#text-profile {
+    text-align: left;
+    padding-left: 20em;
+  }
+
+ul, ol {
+    list-style: none;
+  }

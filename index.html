@@ -7,136 +7,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <Style>
-
-    h1 {
-      font-family: Roboto, sans-serif;
-      color: #03045E;
-      text-align: center;
-      font-weight: 800;
-      width: 20em;
-      padding: 0,5em;
-      margin-right: auto;
-      margin-left: auto;
-      border-radius: 1em;
-    }
-
-    h1, .Topic, #Indice {
-      background-color: rgb(0, 182, 182);
-      display: block;
-    }
-
-    body {
-      background-color: #6cc8d8;
-    }
-
-    #Guilherme {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 250px;
-      border-radius: 60px ;
-    }
-
-    .Topic, #Indice {
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 900;
-      text-align: center;
-      color: #023E8A;
-      width: 30em;
-      padding: 0,5em;
-      margin-right: auto;
-      margin-left: auto;
-      border-radius: 1em;
-    }
-
-    p {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: #013b5a;
-      text-align: center;
-      font-weight: 700;
-      font-size: 16px;
-    }
-
-    .Habilities {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      text-align: center;
-      padding-left: 0%;
-      color: #013b5a;
-      line-height: 30px;
-      font-weight: 800;
-    }
-
-    .size-list, .links {
-      font-size: 18px;
-    }
-
-    .links {
-      text-decoration: solid;
-    }
-
-    strong {
-      color: #020237;
-      background-color: #48CAE4;
-    }
-
-    a:hover {
-      color: #020237;
-    }
-
-    .social:hover {
-      color: #023E8A;
-    }
-
-    #link-indice, .social {
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-      padding-left: 0%;
-      font-size: 18px;
-      font-weight: 800;
-      line-height: 25px;
-    }
-
-    a {
-      color: rgb(13, 80, 77);
-    }
-
-    .social {
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      background-color: #020237;
-      color: #48CAE4;
-      text-decoration: none;
-      display: block;
-      height: 24px;
-      width: 15em;
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-  </Style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Guilherme Ferreira de Morais Pinho</h1>
+  <div>
+    <h1>Guilherme Ferreira de Morais Pinho</h1>
+    <div>
+      <img src="Foto-de-perfil.jpeg" alt="Foto do Guilherme" id="Guilherme">
+      <br><br>
 
-  <img src="Foto-de-perfil.jpeg" alt="Foto do Guilherme" id="Guilherme">
-  <br><br>
-  <a href="https://www.linkedin.com/in/guilhermempinho/" target="_blank" class="social">LinkedIn</a>
-  <br><br>
-  <a href="https://github.com/GuilhermeFMP" target="_blank" class="social">GitHub</a>
-
+      <h2 id="Perfil" class="Topic">Perfil Pessoal</h2>
+      <p> Extremamente motivado, em constante desenvolvimento de minhas habilidades e crescimento profissional. Procuro
+        desafios e efetivação no mercado de trabalho. <br><br> Tenho <em>24 anos</em>, sou naturalizado
+        <strong>Brasileiro</strong> e nasci em <strong>Júquia-SP.</strong>
+      </p>
+    </div>
+  </div>
   <h2 id="Indice">Índice:</h2>
     <ol id="link-indice">
       <li><a href="#Perfil" class="links">Perfil Pessoal</a></li>
       <li><a href="#Habilidades" class="links">Lista de Habilidades</a></li>
       <li><a href="#Interesses" class="links">Interesses e Hobbies</a></li>
     </ol>
-
-  <h2 id="Perfil" class="Topic">Perfil Pessoal</h2>
-  <p> Extremamente motivado, em constante desenvolvimento de minhas habilidades e crescimento profissional. Procuro
-    desafios e efetivação no mercado de trabalho. <br><br> Tenho <em>24 anos</em>, sou naturalizado
-    <strong>Brasileiro</strong> e nasci em <strong>Júquia-SP.</strong>
-  </p>
 
   <h2 id="Habilidades" class="Topic">Lista de Habilidades</h2>
   <ul class="Habilities">
@@ -157,6 +50,11 @@
     <li><a href="https://www.domestika.org/pt" target="_blank" class="links">Domestika</a></li>
     <li><a href="https://olhardigital.com.br/" target="_blank" class="links">Olhar Digital</a></li>
   </ul>
+
+  <a href="https://www.linkedin.com/in/guilhermempinho/" target="_blank" class="social">LinkedIn</a>
+  <br><br>
+  <a href="https://github.com/GuilhermeFMP" target="_blank" class="social">GitHub</a>
+
 </body>
 
 </html>

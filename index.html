@@ -4,57 +4,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfólio Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Guilherme Ferreira de Morais Pinho</h1>
+  <div>
+    <h1>Guilherme Ferreira de Morais Pinho</h1>
+    <div id="image-container">
+      <img src="Foto-de-perfil.jpeg" alt="Foto do Guilherme" id="Guilherme">
+      <br><br>
 
-  <img src="Foto-de-perfil.jpeg" alt="Foto do Guilherme" width="250px" id="Guilherme">
-  <br>
-  <a href="https://www.linkedin.com/in/guilhermempinho/" target="_blank">LinkedIn</a>
-  <br>
-  <a href="https://github.com/GuilhermeFMP" target="_blank">GitHub</a>
-
-  <hr>
-
-  <h3>Índice:</h3>
-    <ol>
-      <li><a href="#Perfil">Perfil Pessoal</a></li>
-      <li><a href="#Habilidades">Lista de Habilidades</a></li>
-      <li><a href="#Interesses">Interesses e Hobbies</a></li>
+      <h2 id="Perfil" class="Topic">Perfil Pessoal</h2>
+      <p id="text-profile"> Extremamente motivado, em constante desenvolvimento de minhas habilidades e crescimento profissional.<br><br> Procuro
+        desafios e efetivação no mercado de trabalho. <br><br> Tenho <em>24 anos</em>, sou naturalizado
+        <strong>Brasileiro</strong> e nasci em <strong>Júquia-SP.</strong>
+      </p>
+    </div>
+  </div>
+  
+  <h2 id="Indice">Índice:</h2>
+    <ol id="link-indice">
+      <li><a href="#Perfil" class="links">Perfil Pessoal</a></li>
+      <li><a href="#Habilidades" class="links">Lista de Habilidades</a></li>
+      <li><a href="#Interesses" class="links">Interesses e Hobbies</a></li>
     </ol>
 
-  <hr>
-
-  <h2 id="Perfil">Perfil Pessoal</h2>
-  <p> Extremamente motivado, em constante desenvolvimento de minhas habilidades e crescimento profissional. Procuro
-    desafios e efetivação no mercado de trabalho. <br><br> Tenho <em>24 anos</em>, sou naturalizado
-    <strong>Brasileiro</strong> e nasci em <strong>Júquia-SP.</strong>
-  </p>
-
-  <hr>
-
-  <h2 id="Habilidades">Lista de Habilidades</h2>
-  <ul>
-    <li>Capacitado em tecnologias.</li>
-    <li>Capaz de seguir instruções.</li>
-    <li><strong>Ráciocinio rápido.</strong></li>
-    <li>Aptidão em exatas.</li>
-    <li>Auto-liderança.</li>
+  <h2 id="Habilidades" class="Topic">Lista de Habilidades</h2>
+  <ul class="Habilities">
+    <li class="size-list">Capacitado em tecnologias.</li>
+    <li class="size-list">Capaz de seguir instruções.</li>
+    <li class="size-list"><strong>Ráciocinio rápido.</strong></li>
+    <li class="size-list">Aptidão em exatas.</li>
+    <li class="size-list">Auto-liderança.</li>
   </ul>
 
-  <hr>
-
-  <h2 id="Interesses">Interesses e Hobbies</h2>
+  <h2 id="Interesses" class="Topic">Interesses e Hobbies</h2>
   <p>Interessado pela <em>área de programação</em>, <em>artes gráficas</em> e <em>tecnologias em geral</em>. <br> Eu 
     <a href="#Guilherme">Guilherme</a> tenho como <strong>Hobbie</strong> estudar novos <em>idiomas</em>, me
     <em>exercitar</em> e <em>sair com os amigos</em>. <br><br>
     Aqui listo algumas recomendações dos meus interesses:</p>
-  <ul>
-    <li><a href="https://www.devmedia.com.br/artigos/" target="_blank">DevMedia</a></li>
-    <li><a href="https://www.domestika.org/pt" target="_blank">Domestika</a></li>
-    <li><a href="https://olhardigital.com.br/" target="_blank">Olhar Digital</a></li>
+  <ul class="Habilities">
+    <li><a href="https://www.devmedia.com.br/artigos/" target="_blank" class="links">DevMedia</a></li>
+    <li><a href="https://www.domestika.org/pt" target="_blank" class="links">Domestika</a></li>
+    <li><a href="https://olhardigital.com.br/" target="_blank" class="links">Olhar Digital</a></li>
   </ul>
+
+  <a href="https://www.linkedin.com/in/guilhermempinho/" target="_blank" class="social">LinkedIn</a>
+  <br><br>
+  <a href="https://github.com/GuilhermeFMP" target="_blank" class="social">GitHub</a>
+
 </body>
 
 </html>
